@@ -12,7 +12,7 @@ language:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://rynex.me
 root: /
 permalink: :year/:month/:day/:title/
 tag_dir: tags
@@ -85,4 +85,6 @@ exclude_generator:
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: github
+  repository: https://github.com/rynex/rynex.github.io.git
+  branch: master
